@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="127px" viewBox="0 0 1440 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>curve</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(0.000000, -867.000000)" fill="#FFFFFF">
+            <path d="M1440,867.639381 L1440,994 L0,994 L0,867.639381 C171.878513,917.359518 430.619658,949 720,949 C1009.38034,949 1268.12149,917.359518 1440,867.639381 Z" id="curve"></path>
+        </g>
+    </g>
+</svg>
