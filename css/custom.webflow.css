@@ -89,8 +89,8 @@ img {
   margin-bottom: 0px;
   padding-top: 200px;
   padding-bottom: 0px;
-  background-image: -webkit-linear-gradient(37deg, #371152, #f5009d), -webkit-linear-gradient(270deg, hsla(0, 0%, 55%, .5), hsla(0, 0%, 55%, .5));
-  background-image: linear-gradient(53deg, #371152, #f5009d), linear-gradient(180deg, hsla(0, 0%, 55%, .5), hsla(0, 0%, 55%, .5));
+  background-image: -webkit-linear-gradient(37deg, #371152, #F70D57), -webkit-linear-gradient(270deg, hsla(0, 0%, 55%, .5), hsla(0, 0%, 55%, .5));
+  background-image: linear-gradient(53deg, #371152, #F70D57), linear-gradient(180deg, hsla(0, 0%, 55%, .5), hsla(0, 0%, 55%, .5));
   color: #fff;
   text-align: center;
 }
@@ -127,6 +127,16 @@ img {
   padding-bottom: 60px;
   background-image: -webkit-linear-gradient(270deg, #220a33, #220a33);
   background-image: linear-gradient(180deg, #220a33, #220a33);
+  color: #fff;
+}
+
+.alt-bkgd {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: -webkit-linear-gradient(270deg, #F70D57, #F70D57);
+  background-image: linear-gradient(180deg, #F70D57, #F70D57);
   color: #fff;
 }
 
@@ -196,8 +206,8 @@ img {
 }
 
 .cta {
-  background-image: -webkit-linear-gradient(37deg, #371152, #f5009d);
-  background-image: linear-gradient(53deg, #371152, #f5009d);
+  background-image: -webkit-linear-gradient(37deg, #371152, #F70D57);
+  background-image: linear-gradient(53deg, #371152, #F70D57);
 }
 
 .cta.section {
@@ -225,8 +235,9 @@ img {
 .curve-bottom {
   position: absolute;
   left: 0px;
+  right: 0;
   top: 0px;
-  margin-top: -1px;
+  margin: -1px auto 0; 
 }
 
 .curve-top {
@@ -292,8 +303,16 @@ img {
 
 .sponsor-container {
   text-align: center;
+  padding: 10px !important;
+}
+.sponsor-container a {
+  display: block;
+  padding: 8px;
 }
 
+.sponsor-logos > .w-row:not(:last-child){
+  border-bottom: 1px solid #f0f0f0;
+}
 .bw {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -407,6 +426,35 @@ img {
   opacity: 0.5;
 }
 
+.schedule{
+  width: 100%;
+}
+.schedule th {
+  border-bottom: 1px solid rgba(255,255,255, 0.4);
+  text-align: left;
+  padding: 15px 8px;
+}
+.schedule-item td{
+  border-bottom: 1px solid rgba(255,255,255, 0.4);
+  padding: 15px 8px;
+}
+.schedule-topic {
+
+}
+.schedule-topic {
+
+}
+.schedule-speaker {
+
+}
+
+.schedule-break {
+  background-color: rgba(0,0,0, 0.1);
+  font-weight: bold;
+  text-align: center;
+  font-style: italic
+}
+
 @media (max-width: 991px) {
   .register {
     margin-top: 10px;
@@ -415,8 +463,8 @@ img {
     text-align: center;
   }
   .banner {
-    background-image: -webkit-linear-gradient(37deg, #371152, #f5009d), -webkit-linear-gradient(270deg, hsla(0, 0%, 55%, .5), hsla(0, 0%, 55%, .5));
-    background-image: linear-gradient(53deg, #371152, #f5009d), linear-gradient(180deg, hsla(0, 0%, 55%, .5), hsla(0, 0%, 55%, .5));
+    background-image: -webkit-linear-gradient(37deg, #371152, #F70D57), -webkit-linear-gradient(270deg, hsla(0, 0%, 55%, .5), hsla(0, 0%, 55%, .5));
+    background-image: linear-gradient(53deg, #371152, #F70D57), linear-gradient(180deg, hsla(0, 0%, 55%, .5), hsla(0, 0%, 55%, .5));
   }
   .navlink {
     text-align: center;
@@ -496,7 +544,7 @@ img {
     padding-top: 40px;
   }
   .navlink:hover {
-    color: #f5009d;
+    color: #F70D57;
   }
   .curve-bottom {
     position: absolute;
